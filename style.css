@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    border: 30px black solid;
+    box-sizing: border-box;
+    background-color: rgba(36, 29, 29, 0.37);
+}
+
+h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 100px;
+}
+
+#container{
+    display: grid;
+    width: 450px;
+    height: 450px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    border: 5px red solid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridSquare{
+    background-color: white;
+}
+
+.imgCont{
+    position: absolute;
+    align-self: center;
+    margin-top: 206px;
+    display: flex;
+    gap: 40px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
